@@ -1,0 +1,44 @@
+/* Estilos (basados en tu CSS anterior) */
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #f06292, #ffd700);
+}
+
+.container {
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+}
+
+.form-wrapper {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0095f6;
+    color: #fff;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 15px;
+    color: #666;
+}
